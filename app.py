@@ -10,7 +10,7 @@ app = dash.Dash()
 
 server = app.server
 
-df = pd.read_csv('./data/mpg.csv')
+df = pd.read_csv('./mpg.csv')
 print(df)
 print(df.columns)
 
