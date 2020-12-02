@@ -30,7 +30,7 @@ app.layout = html.Div([
 								hoverinfo='text+x+y', #info to show when hovering
 								mode='markers'
 							)],
-							'layout': go.Layout(title='MPG Data',
+							'layout': go.Layout(title='MPG Data Test',
 												xaxis={'title':'Model Year'},
 												yaxis={'title':'MPG'},
 												hovermode='closest')
