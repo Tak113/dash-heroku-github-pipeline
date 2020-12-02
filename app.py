@@ -32,7 +32,7 @@ app.layout = html.Div([
 							)],
 							'layout': go.Layout(title='MPG Data Test',
 												xaxis={'title':'Model Year'},
-												yaxis={'title':'MPG'},
+												yaxis={'title':'Mileage Per Gallon'},
 												hovermode='closest')
 						}
 				)
